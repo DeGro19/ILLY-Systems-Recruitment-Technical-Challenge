@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- .NET 8 is an LTS target supported by current Visual Studio releases. -->
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Enable common namespaces automatically and activate nullable analysis. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Treat compiler warnings as defects in the reusable library. -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>

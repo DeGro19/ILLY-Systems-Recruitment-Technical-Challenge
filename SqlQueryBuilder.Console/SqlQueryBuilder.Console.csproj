@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- This executable demonstrates the library's generated SQL. -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Use the local library project rather than a packaged dependency. -->
+    <ProjectReference Include="..\SqlQueryBuilder\SqlQueryBuilder.csproj" />
+  </ItemGroup>
+</Project>
