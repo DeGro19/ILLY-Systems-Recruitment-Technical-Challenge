@@ -6,8 +6,6 @@
 dotnet run --project SqlQueryBuilder.Console
 ```
 
-This prints two worked examples: the `Events` / `EventAttendee` / `Attendee` query from the brief, and a second query against `Customers` / `Orders` that builds its field list dynamically at runtime and uses a `LEFT OUTER JOIN`, to show the library isn't hard-coded to one shape of query.
-
 To run the tests:
 
 ```
